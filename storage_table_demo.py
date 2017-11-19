@@ -101,7 +101,7 @@ print('Created entry for F150 XLT...\n')
 coffee = Entity()
 coffee.Brand = 'Starbucks'
 coffee.Flavor = 'Peppermint Mocha'
-coffee.Cup Size = 'Grande'
+coffee.CupSize = 'Grande'
 coffee.Price = 3.99
 table_service.insert_entity('itemstable', coffee)
 print('Created entry for a Peppermint Moch...\n')
@@ -110,7 +110,7 @@ time.sleep(1)
 coffee = Entity()
 coffee.Brand = 'Starbucks'
 coffee.Flavor = 'Caffe Latte'
-coffee.Cup Size = 'Tall'
+coffee.CupSize = 'Tall'
 coffee.Price = 5.99
 table_service.insert_entity('itemstable', coffee)
 print('Created entry for Caffe Latte...\n')
